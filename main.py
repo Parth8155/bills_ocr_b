@@ -34,7 +34,7 @@ else:
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5174", "http://localhost:5173", "http://localhost:3000"],  # React dev server
+    allow_origins=["https://bills-ocr.vercel.app/","http://localhost:5174", "http://localhost:5173", "http://localhost:3000"],  # React dev server
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
